@@ -1,0 +1,307 @@
+[
+  {
+    "flightId": "AF101",
+    "carrier": { "code": "AF", "name": "Air France" },
+    "origin": { "code": "CDG", "name": "Charles de Gaulle", "city": "Paris", "country": "FR" },
+    "destination": { "code": "JFK", "name": "John F. Kennedy", "city": "New York", "country": "US" },
+    "departureTime": "2026-05-19T06:00:00",
+    "arrivalTime": "2026-05-19T09:00:00",
+    "distanceKm": 5830,
+    "delayMinutes": 10
+  },
+  {
+    "flightId": "AF102",
+    "carrier": { "code": "AF", "name": "Air France" },
+    "origin": { "code": "CDG", "name": "Charles de Gaulle", "city": "Paris", "country": "FR" },
+    "destination": { "code": "LHR", "name": "Heathrow", "city": "London", "country": "UK" },
+    "departureTime": "2026-05-19T07:00:00",
+    "arrivalTime": "2026-05-19T07:50:00",
+    "distanceKm": 340,
+    "delayMinutes": 5
+  },
+  {
+    "flightId": "AF103",
+    "carrier": { "code": "AF", "name": "Air France" },
+    "origin": { "code": "CDG", "name": "Charles de Gaulle", "city": "Paris", "country": "FR" },
+    "destination": { "code": "MAD", "name": "Barajas", "city": "Madrid", "country": "ES" },
+    "departureTime": "2026-05-19T08:00:00",
+    "arrivalTime": "2026-05-19T10:10:00",
+    "distanceKm": 1050,
+    "delayMinutes": 0
+  },
+  {
+    "flightId": "AF104",
+    "carrier": { "code": "AF", "name": "Air France" },
+    "origin": { "code": "CDG", "name": "Charles de Gaulle", "city": "Paris", "country": "FR" },
+    "destination": { "code": "FCO", "name": "Fiumicino", "city": "Rome", "country": "IT" },
+    "departureTime": "2026-05-19T09:00:00",
+    "arrivalTime": "2026-05-19T11:00:00",
+    "distanceKm": 1100,
+    "delayMinutes": 30
+  },
+  {
+    "flightId": "AF105",
+    "carrier": { "code": "AF", "name": "Air France" },
+    "origin": { "code": "CDG", "name": "Charles de Gaulle", "city": "Paris", "country": "FR" },
+    "destination": { "code": "AMS", "name": "Schiphol", "city": "Amsterdam", "country": "NL" },
+    "departureTime": "2026-05-19T10:00:00",
+    "arrivalTime": "2026-05-19T11:15:00",
+    "distanceKm": 430,
+    "delayMinutes": 0
+  },
+
+  {
+    "flightId": "BA201",
+    "carrier": { "code": "BA", "name": "British Airways" },
+    "origin": { "code": "LHR", "name": "Heathrow", "city": "London", "country": "UK" },
+    "destination": { "code": "JFK", "name": "John F. Kennedy", "city": "New York", "country": "US" },
+    "departureTime": "2026-05-19T06:30:00",
+    "arrivalTime": "2026-05-19T09:30:00",
+    "distanceKm": 5540,
+    "delayMinutes": 0
+  },
+  {
+    "flightId": "BA202",
+    "carrier": { "code": "BA", "name": "British Airways" },
+    "origin": { "code": "LHR", "name": "Heathrow", "city": "London", "country": "UK" },
+    "destination": { "code": "CDG", "name": "Charles de Gaulle", "city": "Paris", "country": "FR" },
+    "departureTime": "2026-05-19T07:15:00",
+    "arrivalTime": "2026-05-19T09:30:00",
+    "distanceKm": 340,
+    "delayMinutes": 0
+  },
+  {
+    "flightId": "BA203",
+    "carrier": { "code": "BA", "name": "British Airways" },
+    "origin": { "code": "LHR", "name": "Heathrow", "city": "London", "country": "UK" },
+    "destination": { "code": "MAD", "name": "Barajas", "city": "Madrid", "country": "ES" },
+    "departureTime": "2026-05-19T08:00:00",
+    "arrivalTime": "2026-05-19T11:00:00",
+    "distanceKm": 1260,
+    "delayMinutes": 45
+  },
+  {
+    "flightId": "BA204",
+    "carrier": { "code": "BA", "name": "British Airways" },
+    "origin": { "code": "LHR", "name": "Heathrow", "city": "London", "country": "UK" },
+    "destination": { "code": "FCO", "name": "Fiumicino", "city": "Rome", "country": "IT" },
+    "departureTime": "2026-05-19T09:30:00",
+    "arrivalTime": "2026-05-19T12:30:00",
+    "distanceKm": 1430,
+    "delayMinutes": 60
+  },
+  {
+    "flightId": "BA205",
+    "carrier": { "code": "BA", "name": "British Airways" },
+    "origin": { "code": "LHR", "name": "Heathrow", "city": "London", "country": "UK" },
+    "destination": { "code": "AMS", "name": "Schiphol", "city": "Amsterdam", "country": "NL" },
+    "departureTime": "2026-05-19T10:00:00",
+    "arrivalTime": "2026-05-19T11:00:00",
+    "distanceKm": 430,
+    "delayMinutes": 0
+  },
+
+  {
+    "flightId": "LH301",
+    "carrier": { "code": "LH", "name": "Lufthansa" },
+    "origin": { "code": "FRA", "name": "Frankfurt Airport", "city": "Frankfurt", "country": "DE" },
+    "destination": { "code": "JFK", "name": "John F. Kennedy", "city": "New York", "country": "US" },
+    "departureTime": "2026-05-19T06:00:00",
+    "arrivalTime": "2026-05-19T09:10:00",
+    "distanceKm": 6200,
+    "delayMinutes": 20
+  },
+  {
+    "flightId": "LH302",
+    "carrier": { "code": "LH", "name": "Lufthansa" },
+    "origin": { "code": "FRA", "name": "Frankfurt Airport", "city": "Frankfurt", "country": "DE" },
+    "destination": { "code": "CDG", "name": "Charles de Gaulle", "city": "Paris", "country": "FR" },
+    "departureTime": "2026-05-19T07:00:00",
+    "arrivalTime": "2026-05-19T08:10:00",
+    "distanceKm": 450,
+    "delayMinutes": 0
+  },
+  {
+    "flightId": "LH303",
+    "carrier": { "code": "LH", "name": "Lufthansa" },
+    "origin": { "code": "FRA", "name": "Frankfurt Airport", "city": "Frankfurt", "country": "DE" },
+    "destination": { "code": "MAD", "name": "Barajas", "city": "Madrid", "country": "ES" },
+    "departureTime": "2026-05-19T08:00:00",
+    "arrivalTime": "2026-05-19T10:40:00",
+    "distanceKm": 1420,
+    "delayMinutes": 5
+  },
+  {
+    "flightId": "LH304",
+    "carrier": { "code": "LH", "name": "Lufthansa" },
+    "origin": { "code": "FRA", "name": "Frankfurt Airport", "city": "Frankfurt", "country": "DE" },
+    "destination": { "code": "FCO", "name": "Fiumicino", "city": "Rome", "country": "IT" },
+    "departureTime": "2026-05-19T09:00:00",
+    "arrivalTime": "2026-05-19T11:00:00",
+    "distanceKm": 1100,
+    "delayMinutes": 0
+  },
+  {
+    "flightId": "LH305",
+    "carrier": { "code": "LH", "name": "Lufthansa" },
+    "origin": { "code": "FRA", "name": "Frankfurt Airport", "city": "Frankfurt", "country": "DE" },
+    "destination": { "code": "AMS", "name": "Schiphol", "city": "Amsterdam", "country": "NL" },
+    "departureTime": "2026-05-19T10:00:00",
+    "arrivalTime": "2026-05-19T11:15:00",
+    "distanceKm": 440,
+    "delayMinutes": 0
+  },
+
+  {
+    "flightId": "DL401",
+    "carrier": { "code": "DL", "name": "Delta Airlines" },
+    "origin": { "code": "JFK", "name": "John F. Kennedy", "city": "New York", "country": "US" },
+    "destination": { "code": "LAX", "name": "Los Angeles", "city": "Los Angeles", "country": "US" },
+    "departureTime": "2026-05-19T06:00:00",
+    "arrivalTime": "2026-05-19T09:30:00",
+    "distanceKm": 3980,
+    "delayMinutes": 0
+  },
+  {
+    "flightId": "DL402",
+    "carrier": { "code": "DL", "name": "Delta Airlines" },
+    "origin": { "code": "JFK", "name": "John F. Kennedy", "city": "New York", "country": "US" },
+    "destination": { "code": "MIA", "name": "Miami", "city": "Miami", "country": "US" },
+    "departureTime": "2026-05-19T07:00:00",
+    "arrivalTime": "2026-05-19T10:00:00",
+    "distanceKm": 1750,
+    "delayMinutes": 15
+  },
+  {
+    "flightId": "DL403",
+    "carrier": { "code": "DL", "name": "Delta Airlines" },
+    "origin": { "code": "LAX", "name": "Los Angeles", "city": "Los Angeles", "country": "US" },
+    "destination": { "code": "SEA", "name": "Seattle", "city": "Seattle", "country": "US" },
+    "departureTime": "2026-05-19T08:00:00",
+    "arrivalTime": "2026-05-19T10:30:00",
+    "distanceKm": 1540,
+    "delayMinutes": 0
+  },
+  {
+    "flightId": "DL404",
+    "carrier": { "code": "DL", "name": "Delta Airlines" },
+    "origin": { "code": "MIA", "name": "Miami", "city": "Miami", "country": "US" },
+    "destination": { "code": "JFK", "name": "John F. Kennedy", "city": "New York", "country": "US" },
+    "departureTime": "2026-05-19T09:00:00",
+    "arrivalTime": "2026-05-19T12:00:00",
+    "distanceKm": 1750,
+    "delayMinutes": 90
+  },
+  {
+    "flightId": "DL405",
+    "carrier": { "code": "DL", "name": "Delta Airlines" },
+    "origin": { "code": "SEA", "name": "Seattle", "city": "Seattle", "country": "US" },
+    "destination": { "code": "LAX", "name": "Los Angeles", "city": "Los Angeles", "country": "US" },
+    "departureTime": "2026-05-19T10:00:00",
+    "arrivalTime": "2026-05-19T12:30:00",
+    "distanceKm": 1540,
+    "delayMinutes": 0
+  },
+
+  {
+    "flightId": "UA501",
+    "carrier": { "code": "UA", "name": "United Airlines" },
+    "origin": { "code": "SFO", "name": "San Francisco", "city": "San Francisco", "country": "US" },
+    "destination": { "code": "JFK", "name": "John F. Kennedy", "city": "New York", "country": "US" },
+    "departureTime": "2026-05-19T06:00:00",
+    "arrivalTime": "2026-05-19T10:30:00",
+    "distanceKm": 4150,
+    "delayMinutes": 0
+  },
+  {
+    "flightId": "UA502",
+    "carrier": { "code": "UA", "name": "United Airlines" },
+    "origin": { "code": "SFO", "name": "San Francisco", "city": "San Francisco", "country": "US" },
+    "destination": { "code": "LAX", "name": "Los Angeles", "city": "Los Angeles", "country": "US" },
+    "departureTime": "2026-05-19T07:00:00",
+    "arrivalTime": "2026-05-19T08:30:00",
+    "distanceKm": 560,
+    "delayMinutes": 5
+  },
+  {
+    "flightId": "UA503",
+    "carrier": { "code": "UA", "name": "United Airlines" },
+    "origin": { "code": "SFO", "name": "San Francisco", "city": "San Francisco", "country": "US" },
+    "destination": { "code": "SEA", "name": "Seattle", "city": "Seattle", "country": "US" },
+    "departureTime": "2026-05-19T08:00:00",
+    "arrivalTime": "2026-05-19T10:00:00",
+    "distanceKm": 1090,
+    "delayMinutes": 0
+  },
+  {
+    "flightId": "UA504",
+    "carrier": { "code": "UA", "name": "United Airlines" },
+    "origin": { "code": "LAX", "name": "Los Angeles", "city": "Los Angeles", "country": "US" },
+    "destination": { "code": "MIA", "name": "Miami", "city": "Miami", "country": "US" },
+    "departureTime": "2026-05-19T09:00:00",
+    "arrivalTime": "2026-05-19T15:00:00",
+    "distanceKm": 3760,
+    "delayMinutes": 20
+  },
+  {
+    "flightId": "UA505",
+    "carrier": { "code": "UA", "name": "United Airlines" },
+    "origin": { "code": "SEA", "name": "Seattle", "city": "Seattle", "country": "US" },
+    "destination": { "code": "SFO", "name": "San Francisco", "city": "San Francisco", "country": "US" },
+    "departureTime": "2026-05-19T10:00:00",
+    "arrivalTime": "2026-05-19T12:00:00",
+    "distanceKm": 1090,
+    "delayMinutes": 0
+  },
+
+  {
+    "flightId": "EK601",
+    "carrier": { "code": "EK", "name": "Emirates" },
+    "origin": { "code": "DXB", "name": "Dubai Intl", "city": "Dubai", "country": "UAE" },
+    "destination": { "code": "CDG", "name": "Charles de Gaulle", "city": "Paris", "country": "FR" },
+    "departureTime": "2026-05-19T06:00:00",
+    "arrivalTime": "2026-05-19T11:00:00",
+    "distanceKm": 5240,
+    "delayMinutes": 0
+  },
+  {
+    "flightId": "EK602",
+    "carrier": { "code": "EK", "name": "Emirates" },
+    "origin": { "code": "DXB", "name": "Dubai Intl", "city": "Dubai", "country": "UAE" },
+    "destination": { "code": "LHR", "name": "Heathrow", "city": "London", "country": "UK" },
+    "departureTime": "2026-05-19T07:00:00",
+    "arrivalTime": "2026-05-19T12:00:00",
+    "distanceKm": 5500,
+    "delayMinutes": 0
+  },
+  {
+    "flightId": "EK603",
+    "carrier": { "code": "EK", "name": "Emirates" },
+    "origin": { "code": "DXB", "name": "Dubai Intl", "city": "Dubai", "country": "UAE" },
+    "destination": { "code": "JFK", "name": "John F. Kennedy", "city": "New York", "country": "US" },
+    "departureTime": "2026-05-19T08:00:00",
+    "arrivalTime": "2026-05-19T15:00:00",
+    "distanceKm": 11000,
+    "delayMinutes": 120
+  },
+  {
+    "flightId": "EK604",
+    "carrier": { "code": "EK", "name": "Emirates" },
+    "origin": { "code": "DXB", "name": "Dubai Intl", "city": "Dubai", "country": "UAE" },
+    "destination": { "code": "AMS", "name": "Schiphol", "city": "Amsterdam", "country": "NL" },
+    "departureTime": "2026-05-19T09:00:00",
+    "arrivalTime": "2026-05-19T13:30:00",
+    "distanceKm": 5200,
+    "delayMinutes": 0
+  },
+  {
+    "flightId": "EK605",
+    "carrier": { "code": "EK", "name": "Emirates" },
+    "origin": { "code": "DXB", "name": "Dubai Intl", "city": "Dubai", "country": "UAE" },
+    "destination": { "code": "FCO", "name": "Fiumicino", "city": "Rome", "country": "IT" },
+    "departureTime": "2026-05-19T10:00:00",
+    "arrivalTime": "2026-05-19T14:00:00",
+    "distanceKm": 4300,
+    "delayMinutes": 0
+  }
+]

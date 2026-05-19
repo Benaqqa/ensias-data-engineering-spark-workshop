@@ -1,0 +1,92 @@
+# =========================
+# SBT / Scala
+# =========================
+target/
+project/target/
+project/project/
+lib_managed/
+src_managed/
+dist/
+*.class
+*.log
+
+# Scala Metals / IDE
+.metals/
+.bloop/
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Spark / Hadoop
+# =========================
+derby.log
+metastore_db/
+spark-warehouse/
+warehouse/
+
+# local temp files
+*.tmp
+*.temp
+
+# test outputs
+output/
+test-output/
+test-results/
+
+# =========================
+# Java / JVM
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+
+# heap dumps
+*.hprof
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IntelliJ
+# =========================
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# =========================
+# environment / secrets
+# =========================
+.env
+*.env
+application.conf.local
+secrets/
+credentials/
+
+# =========================
+# Docker
+# =========================
+.docker/
+
+# =========================
+# Coverage reports
+# =========================
+target/scala-*/scoverage-report/
+coverage/
+
+# =========================
+# Spark checkpointing
+# =========================
+checkpoint/
+.checkpoint/

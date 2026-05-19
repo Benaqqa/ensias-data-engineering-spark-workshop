@@ -3,8 +3,10 @@ name: Build Spark Jar
 on:
   push:
     branches:
-      - main
-  pull_request:
+      - release
+
+permissions:
+  contents: write
 
 jobs:
   build:

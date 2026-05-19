@@ -1,0 +1,36 @@
+name: Build Spark Jar
+
+on:
+  pull_request:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-22.04
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ----------------------------------------------------------------------
+      # Build custom dev image from Dockerfile
+      # ----------------------------------------------------------------------
+
+      - name: Build Docker image
+        run: |
+          docker build -t scala-spark-dev .
+
+      # ----------------------------------------------------------------------
+      # Compile inside container
+      # ----------------------------------------------------------------------
+
+      - name: Build assembly jar
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}:/workspace \
+            -w /workspace \
+            scala-spark-dev \
+            sbt clean assembly
